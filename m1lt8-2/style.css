@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   font-size: 16px;
+   scroll-behavior: smooth;
+  
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url('img/bg800bulbs.jpg') no-repeat center fixed;     
+    background-size: cover;
+  
+  }
+  
+
+img {
+    display:block;
+    max-width:100%;
+    height:auto;
+    }
+
+ .container{
+
+        font-size: 12px;
+        max-width: 50vw;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6em;
+      
+    }
+      
+      
+    
+nav a {
+   
+    font-size: 1rem;
+    color: black;
+    
+}
+
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    justify-content:flex-end;
+    padding: 1em;
+}
+
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    align-items: center;
+   
+
+    
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 0.5em;
+    margin-left: 1em;
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav a:hover {
+
+    color: rgb(129, 67, 59);
+
+}
+
+.logo{
+    margin-right: auto;
+}
+
+
+
+p{
+    font-size: 1em;
+    padding: 0.5em;
+    margin-bottom: 5em;
+
+}
+
+.images{
+float: right;
+flex-wrap: wrap;
+border-radius: 20px;
+margin-bottom: 4em;
+padding: 1em;
+}
+
+
+.button{
+    font-size: 0.8rem;
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+    border-color: rgb(203, 210, 203);
+    padding: 0.1em;
+    margin-left: 7em;
+}
+
+
+.testimonial {
+    border: 2px solid #ddede2;
+    background-color: #f4fbf6;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 5px 1px rgb(206, 252, 208) inset;
+  }
+  
+  .testimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .testimonial img {
+    float: left;
+    margin-right: 2em;
+ }
+
+ footer{
+    background-color: rgb(223, 102, 3);
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+ 
+}
+
+h4{
+    font-size: 1em;
+    color: white;
+    text-align: left;
+    margin-bottom: 1em;
+ 
+}
+
+.form{
+    background-color: #b9dec5;
+    max-width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+}
+
+textarea, input{
+    border: 1px solid #ccc;
+
+}
+
+textarea:focus,
+input:focus {
+    outline: 1px solid red
+}
+
+input[type="radio"] {
+    margin: 0.1em;
+}
+
+input[type="submit"] {
+    text-align: center;
+    width: 10em;
+    margin-left: 2em;
+    padding: 0.5em;
+    border-radius: 10px;
+ 
+}
